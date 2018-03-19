@@ -5,13 +5,16 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static com.sun.tools.internal.xjc.reader.Ring.add;
 import static org.junit.Assert.*;
 
 public class ElementCollectionTest {
+
     private ElementCollection elements;
 
     @Before
     public void setUp() throws Exception {
+
         elements = ElementCollectionInitializer.generate();
     }
 

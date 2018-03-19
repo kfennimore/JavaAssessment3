@@ -10,6 +10,7 @@ public class ElementCollectionInitializerTest {
 
     @Test
     public void generate() throws IOException {
+
         assertEquals(119, ElementCollectionInitializer.generate().size());
     }
 }
